@@ -1,0 +1,34 @@
+.TitleContainer {
+    position: relative;
+}
+
+h2.Title {
+    position: relative;
+    color: black;
+    font-size: 3.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+h2.Title::after {
+    content: "";
+    background: red;
+    position: absolute;
+    bottom: -.4rem;
+    left: 50%;
+    width: 5rem;
+    height: .3rem;
+}
+
+h2.Title::after {
+    transform: translate(-50%, 0px);
+}
+
+h2 .subtitle {
+    color: red;
+}
+
+h2 .subtitle2{
+    color: black;
+}

@@ -1,0 +1,67 @@
+.AboutContainer {
+    background: #edf1f4;
+    width: 100%;
+    padding: 7rem 6rem 0rem 6rem;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.AboutContainer .contents {
+    margin-top: 6rem;
+}
+
+.AboutContainer .contents p {
+    padding-bottom: 1rem;
+    line-height: 1.6em;
+    font-size: 1.8rem;
+    color: #666;
+}
+
+.AboutContainer .action .button {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    border-radius: 5.5rem;
+    display: flex;
+    flex-direction: row;
+    width: 17rem;
+    transition: all 300ms ease 0ms;
+    white-space: nowrap;
+}
+
+.AboutContainer .action .button:hover {
+    width: 20rem;
+}
+
+.AboutContainer .action .button::after {
+    content: "→";
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.AboutContainer .action .button:hover::after {
+    content: "→";
+    width: 100%;
+    height: 1rem;
+    opacity: 1;
+}
+
+.AboutContainer .right-col img {
+    width: 100%;
+    height: auto;
+}
+
+.AboutContainer .height {
+    height: 22rem;
+}
+
+.AboutContainer .bottomtext {
+    font-size: 20rem;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+}

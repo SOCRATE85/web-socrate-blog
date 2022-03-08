@@ -1,0 +1,8 @@
+.ourclient .slick-slide .ourclient-item {
+    width: 20%;
+    height: auto;
+}
+
+.ourclient .slick-slide div {
+    display: flex;
+}

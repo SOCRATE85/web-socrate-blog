@@ -1,0 +1,65 @@
+.course-container {
+    width: 100%;
+    height: auto;
+    border-radius: 2.5rem;
+    overflow: hidden;
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.course-container .image-container {
+    width: 100%;
+    height: 25rem;
+    display: block;
+    overflow: hidden;
+}
+
+.course-container .image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.course-container .contents {
+    padding: 3.5rem 2rem 3.5rem 2rem;
+}
+
+.course-container .contents h4 {
+    text-align: center;
+    font-size: 100%;
+    color: #fff;
+}
+
+.course-container .contents .icon {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.course-container .contents .course-details {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.course-container .contents .course-details span {
+    margin-right: .1rem;
+}
+
+.course-container .action {
+    padding-top: 0;
+}
+
+.course-container .action .about-button-odd {
+    background-color: #fff !important;
+    color: red;
+    margin: auto;
+}
+
+.course-container .action .about-button-even {
+    background-color: red !important;
+    color: #fff;
+    margin: auto;
+}

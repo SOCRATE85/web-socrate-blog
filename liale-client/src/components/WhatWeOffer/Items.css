@@ -1,0 +1,27 @@
+.whatwearebanner img {
+    width: 100%;
+    height: auto;
+}
+
+.whatwearelist .item {
+    margin-bottom: 1rem;
+}
+
+.whatwearelist .item .title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #3a3a3a;
+}
+
+.whatwearelist .item .description {
+    font-size: 1.6rem;
+    color: #666666;
+    height: 6rem;
+}
+
+.whatwearelist .item .readmore {
+    font-size: 1.6rem;
+    color: #dd1d28;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}

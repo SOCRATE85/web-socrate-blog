@@ -1,0 +1,12 @@
+.button {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    border-radius: 5.5rem;
+    display: flex;
+    flex-direction: row;
+    width: 17rem;
+    white-space: nowrap;
+    border: none;
+    text-transform: uppercase;
+ }

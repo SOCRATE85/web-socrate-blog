@@ -1,0 +1,68 @@
+.slider-item {
+    width: 100%;
+    position: relative;
+    max-height: 600px;
+}
+
+.slider-item img {
+    width: 100%;
+    height: auto;
+}
+
+.slider-item .contents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding: 10px;
+}
+
+.slider-item .contents::after {
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: white;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.slider-item .contents:hover::after {
+    content: "";
+    background-color: white;
+    box-shadow: 0px 12px 30px #fff;
+}
+
+.slider-item .action .slider-readmore {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    border-radius: 5.5rem;
+    display: flex;
+    flex-direction: row;
+    width: 17rem;
+    transition: all 300ms ease 0ms;
+    white-space: nowrap;
+}
+
+.slider-item .action .slider-readmore:hover {
+    width: 20rem;
+}
+
+.slider-item .action .slider-readmore::after {
+    content: "→";
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.slider-item .action .slider-readmore:hover::after {
+    content: "→";
+    width: 100%;
+    height: 1rem;
+    opacity: 1;
+}
